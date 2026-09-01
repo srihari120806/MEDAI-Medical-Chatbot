@@ -1,15 +1,15 @@
 # 🏥 MEDAI – Medical Assistance Program
 
-MEDAI is a Python-based educational health-assistance application designed to provide a simple, structured interface for basic symptom guidance, first-aid information and BMI calculation.
+MEDAI is a Python-based educational health-assistance application designed to provide structured guidance for common symptoms, first-aid information and BMI calculation.
 
 > **Safety:** MEDAI is an educational/demo project. It does not diagnose diseases, prescribe medicines or replace a qualified healthcare professional.
 
 ## ✨ Features
 
 ### 🩺 Symptom Guidance
-- Menu-driven guidance for common symptoms and health concerns
-- General self-care information for mild situations
-- Clear red-flag guidance for symptoms that may require urgent professional attention
+- Modern selectable symptom interface
+- General self-care information for common concerns
+- Clear red-flag guidance for symptoms requiring professional attention
 - No medication dosage or prescription logic
 
 ### 🆘 First-Aid Information
@@ -17,32 +17,41 @@ MEDAI is a Python-based educational health-assistance application designed to pr
 - Bleeding
 - Choking
 - Burns
-- Blisters
 - Sprains
 - Nosebleeds
 - Insect stings
-- First-aid kit essentials
+- First-aid references
 
 ### 📊 BMI Calculator
-- Accepts height and weight inputs
-- Calculates BMI automatically
-- Displays a general BMI category
-- Includes a reminder that BMI is a screening measure, not a diagnosis
+- Height and weight inputs
+- Automatic BMI calculation
+- General BMI screening category
+- Clear screening disclaimer
 
-### 🛡️ Improved Input Handling
-- Validates numeric inputs
-- Handles invalid entries without crashing
-- Keeps the application modular through separate functions
+### 🎨 Modern Desktop UI
+`MEDAI_GUI.py` adds a polished Tkinter interface with:
+- Sidebar navigation
+- Overview dashboard
+- Symptom selector and result panel
+- First-aid reference cards
+- Dedicated BMI calculator
+- Responsive-looking dark medical dashboard styling
 
 ## 🛠️ Technology Stack
 
 - Python 3
-- Functions and modular programming
+- Tkinter
+- Modular functions
 - Dictionaries for structured health information
-- Console-based user interface
 
-## ▶️ Run the Project
+## ▶️ Run
 
+### Modern interface
+```bash
+python MEDAI_GUI.py
+```
+
+### Original console version
 ```bash
 python MEDAI.py
 ```
@@ -52,12 +61,13 @@ python MEDAI.py
 ```text
 MEDAI-Medical-Chatbot/
 ├── MEDAI.py
+├── MEDAI_GUI.py
 └── README.md
 ```
 
 ## 🚀 Project Highlights
 
-MEDAI demonstrates how a beginner-friendly Python application can be structured into reusable modules, validated user input, menu navigation and safety-conscious informational content.
+MEDAI demonstrates modular Python development, validated input, menu navigation, a user-friendly graphical interface and safety-conscious informational content.
 
 ## 👨‍💻 Author
 
